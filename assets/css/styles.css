@@ -10245,7 +10245,7 @@ p.lead {
   font-size: 5rem;
   width: 1em;
   height: 1em;
-  margin-left: -20px;
+  margin-left: -15px;
 }
 
 .mongodb {
@@ -10290,9 +10290,13 @@ p.lead {
   margin-left: -5px;
 }
 
-.fa-grunt {
-  color: #E18323;
+.grunt {
+  font-size: 5rem;
+  width: 1em;
+  height: 1em;
+  margin-left: -5px;
 }
+
 .fa-github {
   color: #ffffff;
 } {
@@ -10410,15 +10414,7 @@ section.resume-section .resume-section-content {
 
 .fa-npm {
   color: #C53635;
-}
-
-
-.fa-mdb {
-  color: #f8ca;
-}
-
-.fa-grunt {
-  color: #E18323;
+  margin-left: -5px;
 }
 
 }
