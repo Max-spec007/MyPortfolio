@@ -4406,14 +4406,17 @@ input[type=button].btn-block {
   justify-content: center;
 }
 
-.card-body {
+.project .card {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 1px;
-  padding: 1.25rem;
-  padding-top: 4rem;
-  text-align: center
+}
+
+.project .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-title {
