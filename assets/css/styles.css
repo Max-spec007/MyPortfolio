@@ -4430,7 +4430,11 @@ input[type=button].btn-block {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;  /* UPDATED from space-between */
+  justify-content: flex-start;
+  min-height: 1px;
+  padding: 1.25rem;
+  padding-top: 4rem;
+  text-align: center /* UPDATED from space-between */
 }
 
 /* Add these NEW spacing rules directly below */
@@ -4438,9 +4442,9 @@ input[type=button].btn-block {
   margin-bottom: 0.5rem;
 }
 
-.project .card-body p {
+/*.project .card-body p {
   margin-top: auto;   /* pushes description lower without huge whitespace */
-}
+} */
 
 /* Image normalization */
 .project .card-img-top {
