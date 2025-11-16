@@ -4406,19 +4406,27 @@ input[type=button].btn-block {
   justify-content: center;
 }
 
+/* Make the columns flex containers */
+.project {
+  display: flex;
+}
+
+/* Make cards stretch full height */
 .project .card {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
+/* Body grows to fill remaining space */
 .project .card-body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
+/* Normalize screenshot heights across all projects */
 .project .card-img-top {
   height: 260px;
   width: 100%;
