@@ -10335,6 +10335,11 @@ p.lead {
   height: 100%;
   overflow: hidden;
 }
+.project .card-img-top {
+  height: 300px;       /* ← adjust this number for taller/shorter */
+  width: 100%;
+  object-fit: cover;   /* crops the image nicely without stretching */
+}
 
 section.resume-section {
   display: flex;
