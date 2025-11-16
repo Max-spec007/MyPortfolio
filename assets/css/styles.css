@@ -10341,6 +10341,11 @@ p.lead {
   object-fit: cover;   /* crops the image nicely without stretching */
 }
 
+.emmes-img {
+  height: 310px;  /* larger than default */
+  object-fit: cover;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
