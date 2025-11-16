@@ -4377,7 +4377,7 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  /* min-height: 295px; */
+  min-height: 300px;
 }
 .card > hr {
   margin-right: 0;
@@ -10342,7 +10342,7 @@ p.lead {
 }
 
 .emmes-img {
-  height: 310px;  /* larger than default */
+  height: 320px;  /* larger than default */
   object-fit: cover;
 }
 
@@ -10402,7 +10402,6 @@ section.resume-section .resume-section-content {
   display: block;
   width: 100%;
 }
-
 
 .interests {
   color: #ffffff;
