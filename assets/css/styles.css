@@ -10317,6 +10317,9 @@ p.lead {
 .project-link:hover .fa-github {
   color: #00d646;
 }
+.project .card {
+  height: 100%;
+}
 
 section.resume-section {
   display: flex;
