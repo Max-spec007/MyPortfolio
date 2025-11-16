@@ -4413,34 +4413,8 @@ input[type=button].btn-block {
   min-height: 1px;
   padding: 1.25rem;
   padding-top: 4rem;
-  text-align: center
+  text-align: center;
 }
-/* Make the columns flex containers */
-/*.project {
-  display: flex;
-}
-
-/* Make cards stretch full height */
-/*.project .card {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Body grows to fill remaining space */
-/*.project .card-body {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-/* Normalize screenshot heights across all projects */
-/*.project .card-img-top {
-  height: 260px;
-  width: 100%;
-  object-fit: cover;
-}*/
 
 .card-title {
   margin-bottom: 0.75rem;
