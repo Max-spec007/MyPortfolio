@@ -4406,52 +4406,14 @@ input[type=button].btn-block {
   justify-content: center;
 }
 
-/* Default behavior: small/mobile screens */
-.project {
-  display: block;
-}
-
-/* Large screens and up (Bootstrap lg breakpoint: 992px) */
-@media (min-width: 992px) {
-  .project {
-    display: flex;      /* enables equal-height cards */
-  }
-}
-
-/* Make cards stretch full height */
-.project .card {
-  height: 100%;
+.card-body {
   display: flex;
   flex-direction: column;
-}
-
-/* Body grows to fill remaining space */
-.project .card-body {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   min-height: 1px;
   padding: 1.25rem;
   padding-top: 4rem;
-  text-align: center /* UPDATED from space-between */
-}
-
-/* Add these NEW spacing rules directly below */
-.project .card-body .card-title {
-  margin-bottom: 0.5rem;
-}
-
-/*.project .card-body p {
-  margin-top: auto;   /* pushes description lower without huge whitespace */
-} */
-
-/* Image normalization */
-.project .card-img-top {
-  height: 260px;
-  width: 100%;
-  object-fit: cover;
-}
+  text-align: center
 
 .card-title {
   margin-bottom: 0.75rem;
