@@ -10346,6 +10346,30 @@ p.lead {
   object-fit: cover;
 }
 
+/* Remove padding from project columns */
+.project {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Remove horizontal gutters from portfolio rows */
+#portfolio .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Remove left/right padding inside each column */
+#portfolio .row > [class^="col-"],
+#portfolio .row > [class*=" col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Remove bottom space between cards to keep rows tight */
+#portfolio .project.mb-4 {
+  margin-bottom: 0;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
